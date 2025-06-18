@@ -14,15 +14,6 @@ body {
   position: relative;
 }
 
-/* Particles & Gradient Circles */
-.particles {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  z-index: -1;
-  background: url('particles-bg.png') repeat;
-  opacity: 0.1;
-}
 
 .circle {
   position: absolute;

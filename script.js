@@ -3,21 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const cursor = document.querySelector('.custom-cursor');
   const links = document.querySelectorAll('a, button, .project-link');
   
-  document.addEventListener('mousemove', (e) => {
-    cursor.style.left = e.clientX + 'px';
-    cursor.style.top = e.clientY + 'px';
-  });
-  
-  links.forEach(link => {
-    link.addEventListener('mouseenter', () => {
-      cursor.classList.add('active');
-    });
-    
-    link.addEventListener('mouseleave', () => {
-      cursor.classList.remove('active');
-    });
-  });
-  
   // Mobile menu toggle
   const menuToggle = document.querySelector('.menu-toggle');
   const navLinks = document.querySelector('nav ul');
